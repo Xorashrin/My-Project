@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+.vercel/
+
+# turborepo / cache
+.turbo/
+.cache/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env*
+
+# os
+.DS_Store
+
+# pwa generated assets
+public/sw.js
+public/workbox-*.js
+public/fallback-*.js
+
+# test coverage
+coverage/
